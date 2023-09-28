@@ -11,7 +11,8 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    /*Add your code here*/
+    display:flex;
+    flex-wrap: wrap; /*cuando llegues al límite marcado haces caer a los elementos hijos flex, para manter los límites marcados*/
 }
 
 li {
@@ -21,5 +22,5 @@ li {
     color: #fff;
     padding: .5em;
     margin: .5em;
-    /*Add your code here*/
+    flex-grow:1; /*hace crecer a los hijos hasta el ancho que tiene el contenedor flex padre valores: 0 o 1*/
 }

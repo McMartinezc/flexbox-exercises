@@ -5,6 +5,10 @@ body {
     padding: 1em;
     margin: 0;
 }
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
 
 nav ul {
     list-style: none;
